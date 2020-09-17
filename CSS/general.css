@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /*
+	background-image: url(../Codering/Fotos/E_Bonnarens_Tim_prince.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: black; */
+}
+
+h1{color: white;
+	background-color: black;
+		padding: 5px;}
+
+img{max-width: 100%;
+height: auto;}
+
+.img-fluid{
+	height: 150px;
+}
+
+.card-title{
+	margin-top: 15px;
+}
+
+/* Video */
+
+.video-background-holder {
+  position: relative;
+  background-color: black;
+  height: calc(100vh - 72px);
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+.video-background-holder video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+  position: relative;
+  z-index: 2;
+  padding-bottom: 50px;
+}
+
+.freestyle_meerinfo {
+  margin-bottom: 10px;
+}
+
+/* Footer */
+
+footer{background-color: darkgrey;}
+
+footer a{color: black;}
+
+footer {
+  margin-top: 20px;
+  padding: 15px;
+}

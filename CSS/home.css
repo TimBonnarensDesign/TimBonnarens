@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+
+.mystyle{
+ border: 1px solid black;
+}
+
+.card{
+	background-color: transparent !important;
+	border: transparent !important;
+	margin-top: 25px;
+}
