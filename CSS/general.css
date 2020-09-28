@@ -2,32 +2,98 @@
 /* CSS Document */
 
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /*
+.navbar {
+  box-sizing: border-box;
+}
+
+.nav-item a,
+.dropdown-item a {
+  color: var(--white);
+}
+
+.nav-item a:hover,
+.dropdown-item a:hover {
+  color: var(--black);
+}
+
+.navbar {
+  background-color: var(--blue);
+}
+
+.navbar-nav>li>.dropdown-menu {
+  background-color: var(--blue);
+}
+
+.dropdown-menu a:hover {
+  background-color: var(--white);
+}
+
+header {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+main {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: sticky;
+  /*
 	background-image: url(../Codering/Fotos/E_Bonnarens_Tim_prince.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: black; */
 }
 
-h1{color: white;
-	background-color: black;
-		padding: 5px;}
-
-img{max-width: 100%;
-height: auto;}
-
-.img-fluid{
-	height: 150px;
+h1 {
+  color: white;
+  background-color: black;
+  padding: 5px;
 }
 
-.card-title{
-	margin-top: 15px;
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-fluid {
+  height: 150px;
+}
+
+.card-title {
+  margin-top: 15px;
+}
+
+.form-control {
+  margin-bottom: 15px;
+}
+
+.btn {
+  color: var(--white) !important;
+  background-color: var(--blue) !important;
+}
+
+.btn:hover {
+  color: var(--black) !important;
+}
+
+img {
+  border-radius: 5px;
+}
+
+/* Contact */
+
+.list-unstyled a {
+  color: var(--blue) !important;
+  text-decoration: none !important;
+}
+
+.list-unstyled a:hover {
+  color: var(--black) !important;
 }
 
 /* Video */
@@ -66,11 +132,71 @@ height: auto;}
   margin-bottom: 10px;
 }
 
+.topmarge {
+  margin-top: 30px;
+}
+
+/* custom toggler */
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,255,255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+button.navbar-toggler.custom-toggler {
+  border-color: white;
+}
+
+/* Stijl cirkel */
+
+.mystyle {
+  border: 1px solid black;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.75;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.rounded-circle:hover {
+  animation: blink 1s;
+  animation-iteration-count: infinite;
+}
+
+.card {
+  background-color: transparent !important;
+  border: transparent !important;
+  margin-top: 25px;
+}
+
+/* marge tov navbar */
+
+.portfolio img {
+  margin-top: 30px;
+}
+
+.main {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
 /* Footer */
 
-footer{background-color: darkgrey;}
+footer {
+  background-color: darkgrey;
+}
 
-footer a{color: black;}
+footer a {
+  color: black;
+}
 
 footer {
   margin-top: 20px;

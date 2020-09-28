@@ -24,8 +24,9 @@
 
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light"> <a class="navbar-brand" href="#">Tim Bonnarens</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+    <nav class="navbar navbar-expand-lg"> <a class="navbar-brand" href="#"><img src="Fotos/Logo_TimBonnarens.png"
+          class="logo_tim" alt="LogoTim"></a>
+      <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span
           class="navbar-toggler-icon"></span> </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -36,10 +37,9 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown1"> <a class="dropdown-item"
                 href="Fotografie/index.html">Hoofdpagina</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="Fotografie/portret.html">Portret</a> <a class="dropdown-item"
-                href="Fotografie/events.html">Events</a> <a class="dropdown-item"
-                href="Fotografie/sfeer.html">Sfeer</a> <a class="dropdown-item"
-                href="Fotografie/natuur.html">Natuur</a>
+              <a class="dropdown-item" href="Fotografie/portret.html">Portret</a>
+              <a class="dropdown-item" href="Fotografie/sfeer.html">Sfeer</a>
+              <a class="dropdown-item" href="Fotografie/natuur.html">Natuur</a>
             </div>
           </li>
           <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button"
@@ -47,10 +47,9 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item"
                 href="Design/index.html">Hoofdpagina</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="Design/surrealisme.html">Surrealisme</a> <a
-                class="dropdown-item" href="Design/posters.html">Posters</a> <a class="dropdown-item"
-                href="Design/logos.html">Logo's</a> <a class="dropdown-item"
-                href="Design/infographics.html">Infographics</a> <a class="dropdown-item"
+              <a class="dropdown-item" href="Design/surrealisme.html">Surrealisme</a> <a class="dropdown-item"
+                href="Design/posters.html">Posters</a> <a class="dropdown-item" href="Design/logos.html">Logo's</a> <a
+                class="dropdown-item" href="Design/infographics.html">Infographics</a> <a class="dropdown-item"
                 href="Design/campagnes.html">Campagnes</a>
             </div>
           </li>
@@ -66,19 +65,37 @@
   <main>
     <div class="video-background-holder">
       <video playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-        <source src="Fotos/altatw.mp4" type="video/mp4">
+        <source src="Fotos/Promo_Website.mp4" type="video/mp4" class="freestylepromo">
       </video>
-        <div class="video-background-content d-flex h-100 text-center align-items-end">
-          <div class="w-100 text-white">
-            <div class="freestyle_meerinfo">Meer info</div>
-            <a href="#freestyle_content"><img src="Fotos/Pijl.png" class="img-fluid" alt="Responsive image"></a>
+      <div class="video-background-content d-flex h-100 text-center align-items-end">
+        <div class="w-100 text-white">
+          <div class="freestyle_meerinfo">Meer info</div>
+          <a href="#freestyle_content"><img src="Fotos/Pijl.png" class="img-fluid" alt="Responsive image"></a>
+        </div>
+      </div>
+    </div>
+    <div id="freestyle_content" class="main topmarge">
+      <div class="row flex-row-reverse">
+        <div class="col-12 col-md-9">
+          <div class="row">
+            <div class="col-12 col-sm-6">
+              <h4>Info over freestyle</h4>
+              <p>Ik was van kinds af aan al gepassioneerd door jongleren en skills met de bal. In 2016 ben ik begonnen
+                met enkele simpele, indrukwekkende trucs te leren. Sindsdien ben ik continu bezig met mijn freestyle
+                naar een hoger niveau te brengen en doe ik geregeld mee aan competities. Nu ben ik beschikbaar voor
+                privétrainingen, optredens, rollen in muziekclips, reclameclips, sponsoring, ... </p>
+            </div>
+            <div class="col-12 col-sm-6">
+              <h4>Rewards</h4>
+              <p>- Winnaar Play like Pélé Belgium by Snickers, Meet and Greet met beste voetballer aller tijden</p>
+              <p>- Daarnaast ook top 16, top 8 en top 6 in verschillende Belgische competities</p>
+            </div>
           </div>
-        </div>      
+        </div>
+        <div class="col-12 col-md-3"><img src="Fotos/BonnarensTim_Freestyle.jpg" class="img-fluid"
+            alt="Responsive image"></div>
+      </div>
     </div>
-    <div id="freestyle_content">
-      Hallo
-    </div>
-
   </main>
 </body>
 
